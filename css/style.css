@@ -527,7 +527,7 @@ form {
 #toggle-nav:checked+label span.line-bottom {
     position: relative;
     transform: rotate(-45deg);
-    top: -4px;
+    top: -4.2px;
 }
 
 /* End Show and hide sidebar */
