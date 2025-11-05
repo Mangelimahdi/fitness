@@ -1,5 +1,6 @@
 @import url("variables.css");
 
+/* Start Default Styles */
 * {
     margin: 0;
     padding: 0;
@@ -28,6 +29,12 @@ button {
     outline: none;
 }
 
+form {
+    border: none;
+}
+
+/* End Default Styles */
+/* Start Healper Class  */
 .container {
     max-width: 1300px;
     margin: 0 auto;
@@ -190,10 +197,9 @@ button {
     margin-bottom: 1.5rem;
 }
 
-form {
-    border: none;
-}
+/* End Healper Class  */
 
+/* Start Custom Styles */
 .join-btn {
     background-color: var(--yellow-color1);
     color: var(--dark-color2);
@@ -502,6 +508,7 @@ form {
     color: var(--white-color1);
 }
 
+/* Start Show and hide sidebar */
 #toggle-nav:checked+label+nav {
     transform: translateX(0);
 }
@@ -523,6 +530,10 @@ form {
     top: -4px;
 }
 
+/* End Show and hide sidebar */
+/* End Custom Styles */
+
+/* Start Media Screen */
 @media screen and (max-width:1199.98px) {
     .container {
         padding: 0 2rem;
@@ -673,6 +684,7 @@ form {
     .justify-md-around {
         justify-content: space-around;
     }
+
     .justify-md-center {
         justify-content: center;
     }
@@ -709,7 +721,8 @@ form {
     .footer-container {
         margin-bottom: 4rem;
     }
-    .footer-site{
+
+    .footer-site {
         padding: 1rem 0;
     }
 }
@@ -763,3 +776,5 @@ form {
         bottom: 65%;
     }
 }
+
+/* End Media Screen */
